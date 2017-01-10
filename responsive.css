@@ -1,0 +1,409 @@
+@media (min-width: 1080px) and (max-width: 1200px)
+{
+	.container
+	{
+		width: 1040px;
+		margin: 0 auto;
+		padding: 0px 20px;
+	}
+	.features-section ul li
+	{
+		width: 346px;
+	}
+	.project-section ul li
+	{
+		width: 304px;
+		
+	}
+	.project-img img
+	{
+		width:61px;
+		height: auto;
+	}
+	.project-box
+	{
+		width: 304px;
+		height: 195px;
+	}
+	.projects {
+		   text-align:center;
+    		padding: 60px 0px;
+		}
+}
+@media (min-width: 768px) and (max-width: 1080px)
+{
+	.container
+	{
+		width: 728px;
+		margin: 0 auto;
+	}
+	.banner
+	{
+		padding: 100px 0px;
+	}
+	.big-text
+	{
+		font-size: 22px;
+	}
+	.header-text h2 
+	{
+    	font-size: 34px;
+	}
+	.small-text 
+	{
+    	width: 85%;
+    	margin: 0px auto;
+    	font-size: 16px;
+	}
+	.desc h2 {
+    	font-size: 25px;
+	}
+	.desc p {
+    	font-size: 16px;
+	}
+	.features-section ul li {
+    	width: 242px;
+	}
+	.features-section ul li p {
+   
+    	font-size: 14px;
+    	width: 95%;
+	}
+	.contact-section
+	{
+	width: 80%;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	}
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) 
+{
+	.container
+	{
+		width: 728px;
+		margin: 0 auto;
+	}
+	.banner
+	{
+		padding: 140px 0px;
+		margin-top:25px;
+	}
+	.big-text
+	{
+		font-size: 22px;
+	}
+	.header-text h2 
+	{
+    	font-size: 34px;
+	}
+	.small-text 
+	{
+    	width: 85%;
+    	margin: 0px auto;
+    	font-size: 16px;
+	}
+	.desc h2 {
+    	font-size: 25px;
+	}
+	.desc p {
+    	font-size: 16px;
+	}
+	.features-section ul li {
+    	width: 242px;
+	}
+	.features-section ul li p {
+   
+    	font-size: 14px;
+    	width: 95%;
+	}
+	.contact-section
+	{
+	width: 80%;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	}
+}
+@media (min-width: 640px) and (max-width: 768px)
+{
+	.container
+	{
+		width: 600px;
+		margin: 0 auto;
+		padding: 0px 20px;
+	}
+	.banner
+		{
+			padding: 140px 0px;
+		}
+		.big-text {
+    		font-size: 20px;
+		}
+		.header-text h2 {
+    		font-size: 30px;
+    		line-height: 40px;
+		}
+		.small-text {
+    		width: 90%;
+	    	font-size: 16px;
+    		line-height: 35px;
+		}
+		.desc {
+    		padding: 60px 0px;
+		}
+		.desc h2 {
+    		font-size: 22px;
+		}
+		.desc p {
+    		font-size: 14px;
+		}
+		.features-section ul li {
+    		display: block;
+    		float: none;
+    		width: 80%;
+    		margin: 40px auto;
+		}
+		p.box-desc {
+   	 		line-height: 30px;
+		}
+		.projects-section ul li {
+   	 		float: none;;
+   	 		margin: 40px auto;
+		}	
+		.features {
+    		padding: 140px 0px;
+		}
+		.projects {
+    		padding: 140px 0px;
+		}
+		.contact {
+    		padding: 140px 0px;
+    
+		}
+}
+@media (min-width: 480px) and (max-width: 640px)
+{
+	.container
+	{
+		width: 440px;
+		margin: 0 auto;
+		padding: 0px 20px;
+	}
+	.banner
+		{
+		padding: 140px 0px;
+		}
+	.big-text {
+    		font-size: 22px;
+		}
+	.header-text h2 {
+    		font-size: 30px;
+    		line-height: 40px;
+		}
+	.small-text {
+    		width: 90%;
+	    	font-size: 16px;
+    		line-height: 35px;
+		}
+	.desc {
+    		padding: 60px 0px;
+		}
+	.desc h2 {
+    		font-size: 22px;
+		}
+	.desc p {
+    		font-size: 14px;
+			width: 100%;
+		}
+	.features-section ul li {
+    		display: block;
+    		float: none;
+    		width: 80%;
+    		margin: 40px auto;
+		}
+	p.box-desc {
+   	 		line-height: 30px;
+		}
+	.projects-section ul li {
+   	 		float: none;;
+   	 		margin: 40px auto;
+		}	
+	.features {
+    		padding: 140px 0px;
+		}
+	.projects {
+    		padding: 140px 0px;
+		}
+	.contact {
+    		padding: 140px 0px;
+    
+		}
+	.responsive-menu-button{
+	       float: right;
+	       padding: 24px 0px;
+	       margin-bottom:30px;
+               }
+			    
+    .imageframe img 
+        {
+          max-width:100%;
+          height: auto;
+          border: 3px solid white;
+          float: left;
+	      margin:100px 0 0 50px;
+        }
+		
+}
+
+@media (min-width: 20px) and (max-width: 480px)
+{
+	.container{
+		width: 280px;
+		margin: 0 auto;
+		padding: 0px 20px;
+	         }
+
+	.banner{
+		padding: 140px 0px 60px;;
+		}
+
+	.big-text {
+    		font-size: 20px;
+		
+		}
+
+	.header-text h2 {
+    		font-size: 26px;
+    		line-height: 40px;
+		}
+
+	.small-text {
+    		width: 90%;
+	    	font-size: 15px;
+    		line-height: 35px;
+		}
+
+	.button-section ul li {
+    		margin: 50px 12px;
+		}
+
+	.white, .green {
+    		padding: 15px;
+		}
+
+	.desc {
+    		padding: 60px 0px;
+		}
+		
+       .desc h2 {
+    		font-size: 22px;
+		}
+
+       .desc p {
+    		font-size: 14px;
+		width: 100%;
+		}
+
+       .features
+		{
+			padding: 140px 0px;
+		}
+
+       .features-section ul li {
+    		                display: block;
+    		                float: none;
+    		                width: 90%;
+    		                margin: 40px auto;
+		}
+
+	.features-section ul li p{
+			width: 100%;
+		}
+
+	p.box-desc {
+   	 		line-height: 30px;
+			font-size: 14px;
+		}
+
+	.projects-section ul li {
+   	 		margin: 40px auto;
+			width: 260px;
+		}
+
+	.project-img img {
+    		height:auto;
+    		width: 61px;
+		}
+    .project-img 
+	{
+	  width:260px;
+      height:auto;	  
+	}
+
+	.project-box{
+			width:260px;
+			height:170px;
+			margin: 0px auto;
+		}
+
+	.features {
+    		padding: 60px 0px;
+		}
+
+	.projects {
+		    margin: 0 auto;
+    		padding: 60px 0px;
+		}
+
+	.contact {
+    		padding: 140px 0px;
+    
+		}
+
+	.contact-section {
+    		width: 80%;
+		}
+
+	h3.text-head {
+    		font-size: 20px;
+		}
+
+	.menu {
+   			 display: none;
+		}
+
+	.logo {
+			float: left;
+		}
+
+	.info{
+			float:left;
+		}
+
+	.info p{
+			font-size:16px;
+			line-height:150%;
+		}
+		.imageframe img 
+           {
+            max-width:50%;
+            height: auto;
+            border: 3px solid white;
+            float: left;
+	        margin: 0 auto;
+}
+}
+@media only screen and (max-width: 767px){
+     #mobile-header {
+                 display: block;
+                 }
+
+     .banner {
+         padding: 160px 0px 80px;
+             }
+     .menu{
+	  display: none;
+          }
+}
