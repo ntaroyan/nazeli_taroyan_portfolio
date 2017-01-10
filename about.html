@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Nazeli Taroyan Portfolio</title>
+ <link rel="stylesheet" type="text/css" href="css/style.css"/>
+ <link href="css/responsive.css" rel="stylesheet" media="screen" type="text/css"/>
+ <script type="text/javascript" src="js/smoothscroll.js"></script>
+ <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+</head>
+
+<body>
+	<div class="header">
+	            <div class="logo">
+            		<img src="images/nazlogo.png"/>
+            	</div>
+    	<div class="container">
+    		<div class="logo-menu">
+        		               
+                <div id="mobile-header">
+                     <a class="responsive-menu-button" href="#"><img src="images/11.png"/></a>
+                </div>
+            	<div class="menu" id="navigation">
+            		<ul>
+                    	<li><a href="file:///C:/Users/davt/Desktop/NazeliPortfolio/index.html">Home</a></li>
+                        <li><a href="file:///C:/Users/davt/Desktop/NazeliPortfolio/portfolio.html">Portfolio</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+            	</div>
+        	</div>
+        </div>
+    </div>
+		
+<section>
+	 <div class="imageframe">
+	      <img src="images/myphoto.jpg"/>
+	 </div>
+  <div class="info">
+     
+	    <div>
+	       <img src="images/aboutme.png"/>
+	    </div>
+	      <p>Hello, <br>My name is Nazeli Taroyan and I am a Front End Developer living in San Fransisco Bay Area. I received my education in Armenia, graduating in 1998 with a bachelor's degree in Computer Science from The State Engineering University of Armenia. In Armenia, I worked as a Application Support Technician, 
+						   but after moving to US in 2010, I decided to expand my knowledge in Web Development. 
+		  </p>
+		  <div class="skills">
+	          <h3>Development Tools and Software Languages</h3>
+                     <div id="list">
+	                  <p><span>Languages:</span> HTML5, CSS3, JavaScript.</p>
+	                  <p><span>Dev. Environment:</span> Notepad++, Joomla CMS, WordPress CMS.</p>
+	                  <p><span>Tools for design:</span> Adobe Photoshop, Adobe Illustrator.</p>
+	                  <p><span>Documentation:</span>  Microsoft Office Suite including Word, Excel, Power Point.</p>
+                     </div>
+		  </div>
+			  <div id="languages">
+				<h3>Spoken Languages:</h3>
+						  <ul>
+						     <li>English</li>
+							 <li>Armenian</li>
+						     <li>Russian</li>
+						    
+						  </ul>
+			 </div>
+        
+	   <div class="infobox>
+	     <a href="#" id="toggle1">Hobbies</a>
+	       <div id="slideDiv1">
+	            <div class="mycontent">
+		             <ul>
+		               <li>Drawing</li>
+		               <li>Zoomba</li>
+		               <li>Ikebana</li>
+		            </ul>
+		        </div>
+	     </div>
+		   </br>
+		    <a href="#" id="toggle2">Favorite Destinations</a>
+	       <div id="slideDiv2">
+	             <div class="imgcontent">
+		               <img  class="img-responsive" src="images/Yerevan.jpg" alt="Yerevan"/>
+					   <div class="img-info">
+                               <p> Yerevan, Armenia </p>
+					   </div>
+				 </div>
+				 <div class="imgcontent">
+					   <img class="img-responsive" src="images/Prague.jpg" alt="Prague"/>
+					        <div class="img-info">
+                                <p>Prague, Czech Republic</p>
+                            </div>
+					 </div> 
+					  <div class="imgcontent">
+					     <img class="img-responsive" class="img-responsive"src="images/Vienna.jpg" alt="Vienna"/>
+					        <div class="img-info">
+                              <p>Vienna, Austria</p>
+                            </div>
+					  </div>
+					  <div class="imgcontent">
+					     <img class="img-responsive" src="images/Cancun.jpg" alt="Cancun"/> 
+                            <div class="img-info">
+                                <p>Cancun, Mexico</p>
+                            </div>					   
+		             </div>
+		        </div> 
+	       
+			</div>
+       </div>
+  </section>
+   <footer>
+        	<div class="container">
+             <ul class="socialmedia">
+               <li><a href="https://www.facebook.com/nazeli.taroyan" target="_blank"><img src="images/facebook-icon.png"/></a></li>
+                <li><a href="https://www.linkedin.com/in/nazelitaroyan" target="_blank"><img src="images/linkedin-icon.png"/></a></li>
+            </ul>
+          </div>
+   </footer>
+	 <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+        <script type="text/javascript">		
+			 $(document).ready(function() {
+				$('#simple-menu').sidr({
+				side: 'right'
+			});
+			});
+			$('.responsive-menu-button').sidr({
+				name: 'sidr-main',
+				source: '#navigation',
+				side: 'right'
+
+				});
+			$(document).ready(
+			function() {
+			$("html").niceScroll({cursorborder:"0px solid #fff",cursorwidth:"5px",scrollspeed:"70"});
+			}
+			);
+		</script>
+
+</body>
+</html>
+
+
+
+
+
+
