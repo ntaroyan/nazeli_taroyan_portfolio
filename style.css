@@ -247,11 +247,19 @@ p.box-desc
 }
 .projects
 {
-	display:block;
+	display:inline-block;
 	padding: 80px 0px;
 	float: left;
 	width: 100%;
 	background: #f1f1f1;
+}
+.backlink
+{    display:block;
+    padding-top:20px;
+	text-align:center;
+	font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+	font-size:21px;
 }
 
 #contitle
