@@ -245,11 +245,18 @@ p.box-desc
 	font-family: 'Open Sans', sans-serif;
 	
 }
+.backlink
+{    display:block;
+    padding-top:20px;
+	text-align:center;
+	font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+	font-size:21px;
+}
 .projects
 {
-	display:block;
+	display:inline-block;
 	padding: 80px 0px;
-	float: left;
 	width: 100%;
 	background: #f1f1f1;
 }
@@ -273,7 +280,7 @@ p.box-desc
 	color:#ffffff;
 	padding:5px;
 }
-.uniproject,.travelproject 
+.uniproject,.travelproject, .graphics 
 { 
 	display:inline-block;
 	width:100%;
@@ -294,9 +301,9 @@ p.box-desc
 
 .projects-section ul li
 {  
-    display:block;
+    display:inline-block;
 	width: 318px;
-	margin: 40px 100px 0px;
+	margin-right:20px;
 	border-radius: 5px;
 	background-color: #fff;
 	float: left;
@@ -327,7 +334,7 @@ p.box-desc
 .project-img img
 {
 	width: 61px;
-	height: auto;
+	height: 61px;
 	padding:20px;
 	margin:0 auto;
 }
@@ -440,17 +447,22 @@ section
     position:relative;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 15px;
+    margin: 20px;
     padding:10px;
+}
+div.imagerow{
+	display:block;
+	
+	
+	
 }
 
 div.img-info 
 {
-  position:relative;
-  display:block;
-  text-align: center;
-  padding: 10px 20px;
-  margin:10px;
+  display:inline-block;
+  padding: 10px 10px;
+  float:left;
+ 
 }
 
 div.img-info p
@@ -459,17 +471,16 @@ div.img-info p
 	font-family:"Times New Roman", Times, serif;
 	font-size:15px;
 	text-align:center;
-	margin-top:5px;
+	margin-top:10px;
 	
 }
 .img-responsive 
 {
-	display:inline;
-	float:left;
+	display:inline-block;
     text-decoration: none;
-	max-height:200px;
+	max-height:220px;
     max-width:100%;
-	margin: auto;
+	margin:0 auto;
 	padding:0px;
     border: 1px solid #ccc;
 }
@@ -612,13 +623,4 @@ i.icon-linkedin:hover
 }
 
 
-.responsive-menu-button
-{
-	float: right;
-	padding: 24px 0px;
-	
-}
-#mobile-header 
-{
-    display: none;
-}
+

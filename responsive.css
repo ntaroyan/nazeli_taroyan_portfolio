@@ -29,6 +29,7 @@
 		   text-align:center;
     		padding: 60px 0px;
 		}
+	
 }
 @media (min-width: 768px) and (max-width: 1080px)
 {
@@ -69,12 +70,7 @@
     	font-size: 14px;
     	width: 95%;
 	}
-	.contact-section
-	{
-	width: 80%;
-	margin: 0 auto;
-	font-family: 'Open Sans', sans-serif;
-	}
+	
 }
 @media only screen 
 and (min-device-width : 768px) 
@@ -89,7 +85,7 @@ and (orientation : landscape)
 	.banner
 	{
 		padding: 140px 0px;
-		margin-top:25px;
+	
 	}
 	.big-text
 	{
@@ -240,11 +236,6 @@ and (orientation : landscape)
     		padding: 140px 0px;
     
 		}
-	.responsive-menu-button{
-	       float: right;
-	       padding: 24px 0px;
-	       margin-bottom:30px;
-               }
 			    
     .imageframe img 
         {
@@ -253,10 +244,10 @@ and (orientation : landscape)
           border: 3px solid white;
           float: left;
 	      margin:100px 0 0 50px;
-        }
-		
-}
 
+	
+}
+}
 @media (min-width: 20px) and (max-width: 480px)
 {
 	.container{
@@ -370,9 +361,6 @@ and (orientation : landscape)
     		font-size: 20px;
 		}
 
-	.menu {
-   			 display: none;
-		}
 
 	.logo {
 			float: left;
@@ -394,16 +382,42 @@ and (orientation : landscape)
             float: left;
 	        margin: 0 auto;
 }
+	
+}	
+	
 }
-@media only screen and (max-width: 767px){
-     #mobile-header {
-                 display: block;
-                 }
-
-     .banner {
+}
+@media only screen and (max-width: 640px){
+    
+.banner {
          padding: 160px 0px 80px;
-             }
-     .menu{
-	  display: none;
-          }
+}
+ 
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+ {
+  .nav{
+	width:100%;
+	height:auto;
+	display:block;
+	float:left;
+	padding:10px;
+	
+}
+.menu ul li{
+    
+	padding:5px;
+}
+ul.nav li a{
+	display:inline;
+	background-color:#D94F66; 
+    color:#ffffff;
+	border-radius:4px;
+	padding:5px;
+	
+	}
+
 }
