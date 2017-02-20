@@ -260,12 +260,21 @@ p.box-desc
 	width: 100%;
 	background: #f1f1f1;
 }
+.backlink
+{  
+    display:block;
+    padding-top:20px;
+    text-align:center;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    font-size:21px;
+}
 
 #contitle
 {
 	text-align:center;
 	font-weight: 600;
-    font-family: 'Raleway', sans-serif;
+        font-family: 'Raleway', sans-serif;
 	font-size:40px;
 	color:#125F80;
 }
@@ -275,10 +284,10 @@ p.box-desc
     font-family:'Open Sans', sans-serif;
     font-size: 18px;
     line-height:200%;
-	text-align:left;
-	background-color:#4088A0;
-	color:#ffffff;
-	padding:5px;
+    text-align:left;
+    background-color:#4088A0;
+    color:#ffffff;
+    padding:5px;
 }
 .uniproject,.travelproject, .graphics 
 { 
@@ -287,21 +296,26 @@ p.box-desc
 	height:auto;
 }
 .enlarged img
-{   display:inline;
+{ 
+	display:inline;
 	max-width:100%;
 	height:auto;
 	margin:0 auto;
 	padding:20px 0 20px 0;
 	-moz-box-shadow: 10px 10px 5px #888;
-    -webkit-box-shadow: 10px 10px 5px #888;
-     box-shadow: 10px 10px 5px #888;
+        -webkit-box-shadow: 10px 10px 5px #888;
+         box-shadow: 10px 10px 5px #888;
 	 margin-right:5px;
 }
 	
 
 .projects-section ul li
 {  
+<<<<<<< HEAD
     display:inline-block;
+=======
+        display:block;
+>>>>>>> origin/master
 	width: 318px;
 	margin-right:20px;
 	border-radius: 5px;
@@ -313,8 +327,8 @@ p.box-desc
 	-ms-transition: all 0.3s ease-in;
 	-webkit-transition: all 0.3s ease-in;
 	-moz-box-shadow: 10px 10px 5px #888;
-    -webkit-box-shadow: 10px 10px 5px #888;
-     box-shadow: 10px 10px 5px #888;
+        -webkit-box-shadow: 10px 10px 5px #888;
+         box-shadow: 10px 10px 5px #888;
 		
 }
 .projects-section ul li a
@@ -324,8 +338,8 @@ p.box-desc
 }
 .project-img 
 {  
-    width:318px;
-    text-align:center;
+        width:318px;
+        text-align:center;
 	border: 1px solid #ccc;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
@@ -342,8 +356,8 @@ p.box-desc
 {   
 	width:318px;
 	height:141px;
-    margin-left: auto;
-    margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
 	border: 1px solid #ccc;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
@@ -394,7 +408,7 @@ section
     height: auto;
     border: 3px solid white;
     float: left;
-	margin:100px 0 0 50px;
+    margin:100px 0 0 50px;
 }
 .info 
 {
@@ -476,13 +490,22 @@ div.img-info p
 }
 .img-responsive 
 {
+<<<<<<< HEAD
 	display:inline-block;
     text-decoration: none;
 	max-height:220px;
     max-width:100%;
 	margin:0 auto;
+=======
+	display:inline;
+	float:left;
+        text-decoration: none;
+	max-height:200px;
+        max-width:100%;
+	margin: auto;
+>>>>>>> origin/master
 	padding:0px;
-    border: 1px solid #ccc;
+        border: 1px solid #ccc;
 }
 .img-responsive:hover 
 {
@@ -557,8 +580,8 @@ div.img-info p
 	display:block;
 	text-decoration:none;
 	max-height:150px;
-    max-width:100%;
-    margin: 0px auto;
+        max-width:100%;
+        margin: 0px auto;
 }
 
 
@@ -575,7 +598,7 @@ footer
 ul.socialmedia 
 {
 	display:inline-block;
-    list-style:none;
+        list-style:none;
 	text-align:center;
 	
 }
@@ -614,7 +637,7 @@ i.icon-linkedin
     -moz-transition: all 0.3s;
     transition: all 0.3s;
     vertical-align:middle;
-	border:1px solid #000;
+    border:1px solid #000;
 }
 i.icon-linkedin:hover 
 {
