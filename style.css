@@ -311,11 +311,7 @@ p.box-desc
 
 .projects-section ul li
 {  
-<<<<<<< HEAD
-    display:inline-block;
-=======
-        display:block;
->>>>>>> origin/master
+        display:inline-block;
 	width: 318px;
 	margin-right:20px;
 	border-radius: 5px;
@@ -490,20 +486,12 @@ div.img-info p
 }
 .img-responsive 
 {
-<<<<<<< HEAD
 	display:inline-block;
-    text-decoration: none;
-	max-height:220px;
-    max-width:100%;
-	margin:0 auto;
-=======
-	display:inline;
-	float:left;
         text-decoration: none;
-	max-height:200px;
+	max-height:220px;
         max-width:100%;
-	margin: auto;
->>>>>>> origin/master
+	margin:0 auto;
+        text-decoration: none;
 	padding:0px;
         border: 1px solid #ccc;
 }
